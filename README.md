@@ -1,81 +1,42 @@
-Ford GoBike System Data Analysis
+🚲 Ford GoBike System Data Analysis
+📌 Project Overview
 
-Project Overview
+This project analyzes the Ford GoBike (Bay Wheels) trip dataset to uncover differences in riding behavior between Subscribers (regular commuters) and Customers (casual riders). Both exploratory and explanatory analyses were completed to understand usage patterns, trip characteristics, and how user type influences behavior.
 
-This project performs an exploratory and explanatory data analysis on the Ford GoBike System data (now known as Bay Wheels). The goal is to uncover behavioral differences between the two main user types: Subscribers and Customers.
+🔍 Key Insights
 
-The analysis focuses on trip duration, daily usage patterns, and weekly trends to determine how these groups utilize the bike-sharing service differently.
+Subscribers
 
-Dataset
+Ride mainly for commuting purposes
 
-The data consists of trip data for the Ford GoBike system. Each trip is anonymized and includes:
+Short trips (typically < 20 minutes)
 
-Trip Duration (seconds)
+Heavy usage during weekday rush hours
 
-Start Time and Date
+Customers
 
-End Time and Date
+Longer recreational trips
 
-User Type (Subscriber or Customer)
+Higher usage on weekends and midday hours
 
-Member Gender
+➡ Trip duration emerged as the strongest indicator of rider type.
 
-Member Birth Year
-
-Start and End Station Information
-
-Files in the Repository
-
-This project is divided into two major parts:
-
-Part_I_exploration_FINAL HTML.html
-
-This document contains the exploratory data analysis (EDA).
-
-It details the process of cleaning the data, univariate exploration (histograms, etc.), bivariate exploration (scatter plots, box plots), and multivariate exploration.
-
-It documents the thought process and observations at every step of the analysis.
-
-Part_II_explanatory_FINAL HTML.html
-
-This document is a polished slide deck presentation of the major findings derived from the exploration phase.
-
-It focuses on communicating specific insights with clean, explanatory visualizations.
-
-Key Insights & Findings
-
-The analysis revealed distinct behaviors between the two user groups:
-
-Subscribers (Commuters):
-
-Tend to have short, consistent trip durations (mostly under 20 minutes).
-
-Usage peaks heavily during rush hours (8 AM and 5 PM) on weekdays (Mon-Fri).
-
-This suggests "Subscriber" usage is primarily for commuting to and from work.
-
-Customers (Casual/Leisure):
-
-Take significantly longer rides compared to subscribers.
-
-Usage peaks on weekends (Saturday and Sunday) and during midday hours.
-
-This suggests "Customer" usage is largely recreational or for leisure activities.
-
-Multivariate Analysis:
-
-When combining user type, day of the week, and hour of the day, the data confirms that long durations are best explained by the combination of "Customer" status and weekend/midday time slots.
-
-Tools Used
+📂 Repository Structure
+File Name	Description	Type
+Part_I_exploration_FINAL HTML.html	Data cleaning, feature exploration, and initial visualizations	Exploratory Analysis
+Part_II_explanatory_FINAL HTML.html	Polished visual storytelling of the major findings	Explanatory Presentation
+🛠️ Tools & Technologies
 
 Python 3
 
+Pandas
+
+Matplotlib & Seaborn
+
 Jupyter Notebook
 
-Pandas (Data manipulation)
+▶️ How to Use
 
-Matplotlib & Seaborn (Data visualization)
+Download the .html files from the repository
 
-How to View
-
-Since the notebooks have been exported to HTML, you can download the .html files and open them in any web browser to view the analysis and presentation.
+Open them in any modern web browser to interact with the visualizations
