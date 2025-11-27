@@ -22,9 +22,15 @@ Higher usage on weekends and midday hours
 ➡ Trip duration emerged as the strongest indicator of rider type.
 
 📂 Repository Structure
+
 File Name	Description	Type
+
 Part_I_exploration_FINAL HTML.html	Data cleaning, feature exploration, and initial visualizations	Exploratory Analysis
+
+
 Part_II_explanatory_FINAL HTML.html	Polished visual storytelling of the major findings	Explanatory Presentation
+
+
 🛠️ Tools & Technologies
 
 Python 3
